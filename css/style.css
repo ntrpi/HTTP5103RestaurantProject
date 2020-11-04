@@ -19,11 +19,7 @@
   
   4. Footer
 
-  Appendix
-
-  A. Main Navigation
-  B. Banner
-
+  5. Responsive Design
   -----------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------
@@ -34,10 +30,14 @@
 :root {
 
   /* Font Families */
-  --generalFontFamily: 'Open Sans', sans-serif;
-  --headingFontFamily: 'Lato', sans-serif;
+  --generalFontFamily: 'Prompt', sans-serif;
+  --headingFontFamily: 'Frank Ruhl Libre', serif;
+  ;
 
   /* Colours */
+  --lightGrey: #888;
+  --darkGrey: #666;
+  --vDarkGrey: #555;
 } 
 
 /* 1.2 HTML */
@@ -70,7 +70,13 @@ body {
 }
 
 /* 1.4 Headers */
-
+h1 {
+  color: var( --vDarkGrey );
+  font-family: var( --headingFontFamily );
+  font-size: 3em;
+  margin-bottom: .25em;
+  text-transform: uppercase;
+}
 
 /* 1.5 Buttons */
 
@@ -79,11 +85,6 @@ body {
 
 
 /* 1.7 Images */
-.bannerImage {
-  display: block;
-  max-width: 80%;
-  margin: 2em auto;
-}
 
 /* 1.8 Lists */
 
@@ -94,6 +95,44 @@ body {
 /*---------------------------------------------------------------
   2. Header 
 */
+/* Main Navigation */
+#mainNavigation {
+
+}
+
+.mainNav {
+
+}
+
+/* Banner */
+#banner {
+}
+
+.bannerContent {
+
+}
+
+
+.bannerImage {
+  padding: 1.5em;
+}
+
+#bannerTextDiv {
+  padding: 2em;
+  text-align: center;
+
+}
+
+#slogan {
+  border-top: 2px solid #888;
+  color: var( --darkGrey );
+  font-family: var( --generalFontFamily );
+  padding: .5em 0;
+}
+
+#logo {
+  padding: 2em;
+}
 
 /*---------------------------------------------------------------
   3. Main 
@@ -106,67 +145,43 @@ body {
   4. Footer 
 */
 
-/* Appendix */
+/*---------------------------------------------------------------
+  5. Responsive Design 
+*/
 
-/* Main Navigation */
-#mainNavigation {
-
-}
-
-.mainNav {
-
-}
-
-/* Banner */
-#banner {
-
-}
-
-.bannerContent {
-
-}
-
-/* Drop Down Navigation */
-#dropDownNavigation {
+/* Small devices (phones, portrait tablets, 767px and down) */
+@media only screen and (max-width: 767px) {
+  .bannerImage {
+    display: block;
+    max-width: 80%;
+  }
   
 }
 
-#dropDownNavigation ul{
-  list-style:none;
-  margin:0;
-  padding:0;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #bannerTextDiv {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #bannerImageDiv {
+    /* display: inline-block; */
+  }
+
+  .bannerImage {
+    float: left;
+    max-width: 55%;
+  }
+  
 }
 
-#dropDownNavigation li{
-  display:inline-block;
-  vertical-align:top;
-  /* want 5 columns, so 20% each */
-  /* add a small 1% margin between each */
-  /* 100% - (4 * 1%) = 96% */
-  /* 96% / 5 = 19.2% */
-  width:19.2%;
-  margin-right:1%;
-  /* text-transform:uppercase; */
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 
-#dropDownNavigation li:last-child {
-  margin-right:0;
+  .bannerImage {
+    float: left;
+    max-width: 65%;
+  }
 }
-#dropDownNavigation li a {
-  /* color:#000; */
-}
-#dropDownNavigation li ul {
-  margin-top:1.67em; /* 30px / 18px */
-}
-#dropDownNavigation li li {
-  float:none; /* don't float the children li */
-  display:block;
-  width:100%;
-  margin:0;
-  /* text-transform:capitalize; */
-}
-#dropDownNavigation li li a {
-  /* color:#3c3a3a; */
-}
-
 
