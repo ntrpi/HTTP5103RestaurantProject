@@ -1,0 +1,842 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#top-bar {
+    background-color: #ffe1a8;
+}
+#top-bar h1 {
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    padding-left: 24em;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: inline-block;
+}
+#top-bar h2 {
+    float: right;
+    padding-top: 1em;
+    font-size: 15px;
+}
+.menu-bar a,
+.menu-bar a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.menu-bar a:hover {
+    color: #e26d5c;
+}
+#main-menu {
+    position: absolute;
+    top: 1.9em;
+    left: 26.5em;
+}
+.menu-bar li {
+    display: inline-block;
+}
+#filter {
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 2em;
+}
+#filter:hover {
+    color: #e26d5c;
+}
+#cart {
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 1em;
+}
+#cart:hover {
+    color: #e26d5c;
+}
+
+.menu-section-main h2 {
+    padding-left: 1.5em;
+    margin-bottom: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/*========================*/
+/*FIRST ROW*/
+#top-three-columns {
+    display: inline-block;
+    padding-top: 1em;
+}
+/*CEVICHE COLUMN*/
+.ceviche1 {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.ceviche1 h3 {
+    position: absolute;
+    margin-left: 1em;
+    border: solid;
+    border-color: #e26d5c;
+    border-width: 1px;
+    border-radius: 5px 7px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #e26d5c;
+}
+.ceviche1 h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.ceviche1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.ceviche1 button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.ceviche1 button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*MARROZ COLUMN*/
+.marroz {
+    display: inline-block;
+    padding-left: 3em;
+    }
+.marroz h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.marroz p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.marroz button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.marroz button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*CHORCHA COLUMN*/
+.chorcha {
+    display: inline-block;
+    padding-left: 3em;
+}
+.chorcha h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.chorcha p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.chorcha button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.chorcha button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+
+/*SECOND ROW DISPLAY*/
+#middle-three-columns {
+    display: inline-block;
+    padding-top: 1em;
+}
+/*CHUPCAMA COLUMN*/
+.chupcama {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.chupcama h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.chupcama p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.chupcama button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.chupcama button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*ESCADO COLUMN*/
+.escado {
+    display: inline-block;
+    padding-left: 3em;
+}
+.escado h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.escado p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.escado button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.escado button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*JALEA COLUMN*/
+.jalea {
+    display: inline-block;
+    padding-left: 3em;
+}
+.jalea h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.jalea p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.jalea button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.jalea button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+
+/*THIRD ROW DISPLAY*/
+#bottom-three-columns {
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+/*PARIHUELA COLUMN*/
+.parihuela {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.parihuela h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;;
+}
+.parihuela p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.parihuela button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.parihuela button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*PLASCADO COLUMN*/
+.plascado {
+    display: inline-block;
+    padding-left: 3em;
+}
+.plascado h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.plascado p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.plascado button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.plascado button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*LOMO COLUMN*/
+.lomo {
+    display: inline-block;
+    padding-left: 3em;
+}
+.lomo h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.lomo p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.lomo button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.lomo button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*========================*/
+/*APPETIZERS*/
+.menu-section-appetizers h2 {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+    padding-top: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    border-top-style: double;
+    border-color: #e26d5c;
+}
+#appetizers {
+    display: inline-block;
+    padding-top: 1em;
+}
+#appetizers-second-row {
+    padding-bottom: 1.5em;
+}
+/*ANTICUCHOS COLUMN*/
+.anticuchos {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.anticuchos h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.anticuchos p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.anticuchos button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.anticuchos button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*CAUSA COLUMN*/
+.causa {
+    display: inline-block;
+    padding-left: 3em;
+}
+.causa h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.causa p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.causa button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.causa button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*PAPA RELLENA COLUMN*/
+.papare {
+    display: inline-block;
+    padding-left: 3em;
+}
+.papare h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.papare p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.papare button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.papare button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+
+#appetizers-second-row {
+    display: inline-block;
+    padding-top: 1em;
+}
+/*PALTA RELLENA COLUMN*/
+.palta {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.palta h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.palta p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.palta button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.palta button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*TAMALITO COLUMN*/
+.tamalito {
+    display: inline-block;
+    padding-left: 3em;
+}
+.tamalito h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.tamalito p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.tamalito button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.tamalito button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*========================*/
+/*SALADS*/
+.menu-section-salads h2 {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+    padding-top: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    border-top-style: double;
+    border-color: #e26d5c;
+}
+#salads {
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*ENSALADA RUSA COLUMN*/
+.rusa {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.rusa h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.rusa p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.rusa button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.rusa button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*PAPA A LA HUANCAINA COLUMN*/
+.papala {
+    display: inline-block;
+    padding-left: 3em;
+}
+.papala h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.papala p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.papala button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.papala button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*SOLTERITO COLUMN*/
+.solterito {
+    display: inline-block;
+    padding-left: 3em;
+}
+.solterito h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.solterito p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.solterito button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.solterito button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*========================*/
+/*DESSERTS*/
+.menu-section-desserts h2 {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+    padding-top: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    border-top-style: double;
+    border-color: #e26d5c;
+}
+#desserts {
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*PICARONES COLUMN*/
+.picarones{
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.picarones h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.picarones p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.picarones button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.picarones button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*MAZAMORRA MORADA COLUMN*/
+.mora {
+    display: inline-block;
+    padding-left: 3em;
+}
+.mora h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.mora p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.mora button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.mora button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*FLAN COLUMN*/
+.flan {
+    display: inline-block;
+    padding-left: 3em;
+}
+.flan h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.flan p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.flan button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.flan button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*========================*/
+/*DRINKS*/
+.menu-section-drinks h2 {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+    padding-top: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    border-top-style: double;
+    border-color: #e26d5c;
+}
+#drinks {
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+/*PINA COLADA COLUMN*/
+.pina {
+    display: inline-block;
+    padding-left: 1.2em;
+}
+.pina h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.pina p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.pina button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.pina button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*BOTH COLUMN*/
+.both {
+    display: inline-block;
+    padding-left: 2em;
+}
+.both h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.both p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.both button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.both button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*SMOOTHIES COLUMN*/
+.smoothies {
+    display: inline-block;
+    padding-left: 2em;
+}
+.smoothies h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.smoothies p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.smoothies button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.smoothies button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*CHICHA MORADA COLUMN*/
+.chicha {
+    display: inline-block;
+    padding-left: 2em;
+}
+.chicha h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.chicha p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.chicha button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.chicha button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
+/*PISCO SOUR COLUMN*/
+.pisco {
+    display: inline-block;
+    padding-left: 2em;
+}
+.pisco h2 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.pisco p {
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: pre-line;
+}
+.pisco button {
+    background-color: #723d46;
+    color: white;
+    border: none;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.pisco button:hover {
+    background-color: #c9cba3;
+    color: white;
+}
