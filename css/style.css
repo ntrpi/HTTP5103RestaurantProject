@@ -7,20 +7,13 @@
     1.2 HTML
     1.3 Utility Classes
     1.4 Headers
-    1.5 Buttons
-    1.6 Links
-    1.7 Images
-    1.8 Lists
-    1.9 Forms
 
   2. Header
 
   3. Main
   
   4. Footer
-
-  5. Responsive Design
-  -----------------------------------------------------------------------*/
+----------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------
   1. General Setup
@@ -38,6 +31,15 @@
   --lightGrey: #888;
   --darkGrey: #666;
   --vDarkGrey: #555;
+  --highlightRed: #db0000;
+  --paleRed: #ff5959;
+
+  /* Margins */
+  --bannerPadding: 1.5em;
+
+  /* Borders */
+  --separator: 2px solid var( --lightGrey );
+
 } 
 
 /* 1.2 HTML */
@@ -50,9 +52,8 @@ html {
 }
 
 body {
-  margin:0; /* remove gap around body perimeter */
-  /* font-family:Arial,Helvetica,sans-serif; */
-  /* font:normal 1em Arial,Helvetica,sans-serif; */
+  margin:0;
+  font-family: var( --generalFontFamily );
 }
 
 /* 1.3 Utility Classes */
@@ -64,124 +65,120 @@ body {
 }
 
 .pageWrapper {
-  max-width:980px;
+  max-width:1200px;
   margin:0 auto;
   position:relative;
 }
 
+
 /* 1.4 Headers */
 h1 {
-  color: var( --vDarkGrey );
   font-family: var( --headingFontFamily );
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: .25em;
+  margin-top: 10%;
   text-transform: uppercase;
 }
 
-/* 1.5 Buttons */
+h1 a {
+  color: var( --vDarkGrey );
+}
 
-
-/* 1.6 Links */
-
-
-/* 1.7 Images */
-
-/* 1.8 Lists */
-
-
-/* 1.9 Forms */
-
+h1 a:link {
+  text-decoration: none;
+}
 
 /*---------------------------------------------------------------
   2. Header 
 */
-/* Main Navigation */
-#mainNavigation {
-
-}
-
-.mainNav {
-
-}
-
 /* Banner */
-#banner {
-}
-
 .bannerContent {
-
+  overflow: auto;
+  position: relative;
 }
 
-
-.bannerImage {
-  padding: 1.5em;
+.bannerImageDiv {
+  overflow: auto;
+  float: left;
+  max-width: 50%;
 }
 
-#bannerTextDiv {
-  padding: 2em;
+#bannerImage {
+  border-right: var( --separator );
+  width: 100%;
+  margin: 1.5em 0 0 0;
+  padding: 0 2em;
+}
+
+.bannerTextDiv {
+  padding: var( --bannerPadding );
   text-align: center;
-
+  float: right;
+  margin: 0 10% 0 0;
 }
 
-#slogan {
-  border-top: 2px solid #888;
+.slogan {
+  border-top: var( --separator );
   color: var( --darkGrey );
   font-family: var( --generalFontFamily );
+  margin-top: 2em;
   padding: .5em 0;
 }
 
-#logo {
+.logo {
   padding: 2em;
+}
+
+/* Main Navigation */
+.navDiv {
+  display: block;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.navigation {
+  display: inline-block;
+  border-top: var( --separator );
+  border-bottom: var( --separator );
+  padding: 0 2em;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 1em;
+}
+
+.navigation li {
+  display: inline-block;
+  list-style-type: none;
+  max-width: 30%;
+  margin: .5em 4rem;
+}
+
+.navDiv a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navDiv a:link {
+  color: var( --highlightRed );
+}
+
+#home {
+  color: var( --highlightRed );
+}
+
+.navDiv a:visited {
+  color: var( --paleRed );
 }
 
 /*---------------------------------------------------------------
   3. Main 
 */
-#main {
 
-}
 
 /*---------------------------------------------------------------
   4. Footer 
 */
-
-/*---------------------------------------------------------------
-  5. Responsive Design 
-*/
-
-/* Small devices (phones, portrait tablets, 767px and down) */
-@media only screen and (max-width: 767px) {
-  .bannerImage {
-    display: block;
-    max-width: 80%;
-  }
-  
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  #bannerTextDiv {
-    display: inline-block;
-    text-align: center;
-  }
-
-  #bannerImageDiv {
-    /* display: inline-block; */
-  }
-
-  .bannerImage {
-    float: left;
-    max-width: 55%;
-  }
-  
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-  .bannerImage {
-    float: left;
-    max-width: 65%;
-  }
-}
 
