@@ -1,0 +1,78 @@
+/* 1.2 HTML */
+html {
+  box-sizing:border-box;
+}
+  
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+.centerText {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.centerText h2 {
+  margin-top: var( --generalSpacing );
+  margin-bottom: .2em;
+}
+
+.centerText h3 {
+  margin-top: .2em;
+  margin-bottom: var( --generalSpacing );
+}
+
+.formAndImageDiv {
+  overflow: auto;
+  position: relative;
+  text-align: center;
+}
+
+.formDiv {
+  max-width: 45%;
+  margin: 0 0 0 8%;
+  padding: var( --generalSpacing );
+  float: left;
+}
+
+.formDiv div {
+  padding: .75em;
+}
+
+.formDiv label {
+  white-space: pre;
+}
+
+
+.inputField {
+  border: 2px solid var( --vDarkGrey );
+  border-radius: 4px;
+  padding: .4em 1em;
+  width: 75%;
+}
+
+
+.submitButton {
+  margin-top: var( --generalSpacing );
+}
+
+.reservedImageDiv {
+  overflow: auto;
+  float: right;
+  max-width: 50%;
+}
+
+.reservedImage {
+  border-left: var( --separator );
+  width: 100%;
+  margin: var( --generalSpacing ) 0 0 0;
+  padding: 0 4em 0 2em;
+}
+  
+  
+  
+
+
+
+
+
