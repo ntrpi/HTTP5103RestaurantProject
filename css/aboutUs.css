@@ -1,12 +1,8 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway&display=swap');
 
-body {
+main,header,footer{
     font-family: 'Lato', 'Raleway', 'Parisienne',sans-serif, cursive;
     font-size:1.25em;
-}
-main,header,footer{
-    max-width:1200px;
-    margin:0 auto;
 }
 #main-container div {
     display: inline-block;
