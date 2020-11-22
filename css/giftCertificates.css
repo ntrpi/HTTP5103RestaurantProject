@@ -1,0 +1,81 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway&display=swap');
+
+main,header,footer{
+    font-family: 'Lato', 'Raleway', 'Parisienne',sans-serif, cursive;
+    font-size:1.25em;
+}
+#main-container {
+    margin: 0;
+    padding: 0;
+	border:2px solid red;
+    /*background-color: #98c7d5;*/
+    /*background: url(../images/beautiful-beach-sea_74190-6620n.jpg) no-repeat;
+    opacity:0.4;*/
+}
+#main-container> div, #main-container form {
+    display: inline-block;
+    margin-left: 4em;
+    vertical-align: top;
+    /*border: 2px solid red;*/
+    text-align: justify;
+}
+#main-container> div{
+	width:50%;
+}
+#main-container> div:last-of-type{
+	width:90%;
+}
+#main-container> div h3, #main-container form h3{
+    text-align:center;
+    margin-bottom:0;
+	padding-bottom:0;
+}
+#main-container> form h3{
+margin-top:1.5em;
+}
+#main-container> div h3{
+	margin-top:0.5em;
+}
+
+form div{
+	padding:0.5em;
+}
+span {
+    color: green;
+    font-family: 'Parisienne',sans-serif, cursive;
+    font-size:1.5em;
+}
+#backgroundPics a img{
+    width:15%;
+    height:15%;
+    
+}
+#backgroundPics a:hover img{
+    border:3px solid #699f1a;
+    
+}
+
+#finalcard h4 {
+	font-size:2em;
+    text-align: center;
+	margin-top:0;
+}  
+
+#main-container h2 {
+	text-align:center;
+    margin-bottom:0;
+	
+}
+
+#finalcard{
+	margin-top:2em;
+	padding-top:0;
+	border:2px solid green; 
+	border-radius:10px 10px;
+	background:url("../images/logoSmall.png")no-repeat;
+	/*background:url("../images/oysters-1209767_1920.jpg")no-repeat;*/
+}
+#finalcard p{
+	margin-left:1em;
+	font-size:1.25em;
+}

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>About us</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/giftCertificates.css" />
+		<script src="./js/giftCertificates.js"></script>
+    </head>
+    <body>
+        <header>
+      <!-- Banner -->
+      <section id="banner" class="pageWrapper">
+        <div class="bannerContent">
+          <div class="bannerImageDiv">
+            <img id="bannerImage" src="./images/ceviche.jpg" alt="An order of ceviche presented in a turquoise ceramic bowl.">
+          </div>
+          <div class="bannerTextDiv">
+            <h1 id="siteName"><a href="index.html">Ceviche</a></h1>
+            <div class="slogan">Authentic Peruvian Fine Dining</div>
+            <div class="logoSurround">
+              <img class="logo" src="./images/logoSmall.png" alt="Logo is a stylized greyscale sun setting over the sea.">
+            </div>
+          </div> <!-- end bannerTextDiv -->
+        </div> <!-- end bannerContent -->
+      </section>
+      
+      <div class="navDiv">
+        <nav class="navigation">
+          <ul>
+            <li><a id="home" href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+        </header>
+        <main class="pageWrapper">
+		
+            <div id="main-container">
+			
+			    <h2>Gift card</h2>
+           
+				<form action="" method="Post" name="giftCard">
+				<h3>Card information</h3>
+				<div>
+				<label for="senderName">Sender name:</label>
+				<input type="text" id="senderName" name="senderName" placeholder="kankou Moussa"/>
+				</div>
+				
+				<div>
+				<label for="receiverName">Receiver name:</label>
+				<input type="text" id="receiverName" name="receiverName" placeholder="Alexander Thegreat"/>
+				</div>
+				
+				<div>
+				<label for="receiverEmail">Receiver email:</label>
+				<input type="email" id="receiverEmail" name="receiverEmail" placeholder="what@ok.com"/>
+				</div>
+				
+				<div>
+				<label for="amount">Amount:</label>
+				<input type="number" id="amount" name="amount" placeholder="45"/>
+				</div>
+				
+				<div>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Type a message here for the receiver..."></textarea>
+				</div>
+			    
+				<div>
+				<label for="occasion">Occasion</label>
+				<select id="occasion" name="occasion">
+				<option value=0>Any occasion</option>
+				<option value=1>Wedding</option>
+				<option value=2>Anniversary</option>
+				<option value=3>Congratulations</option>
+				<option value=4>Graduation</option>
+				<option value=5>Birthday</option>
+				<option value=6>Mother's day</option>
+				<option value=7>Father's day</option>
+				</select>
+				</div>
+			
+			    <div>
+				<input type="Submit" name="Submit"value="Submit"/>
+				</div>
+				</form>
+				
+				<div id="finalcard">
+				<h3><span> Ceviche Gift Card</span></h3>
+				<h4>for occasion here</h4>
+				<p> To:<em>receiver name</em><p>
+				<p>message</p>
+				<p> From:<em>Sendername</em><p>
+				<p>Amount here</p>
+                </div>
+				
+				<div id="backgroundPics">
+				<h3>Choose any picture for background</h3>
+                    
+                    <a href="#"><img src="images/Mackerel_Tomato.jpg" alt="mackerel with tomatoes" title=" fish dish" /></a>
+                    <a href="#"><img src="images/Prawn_and_Salad.jpg" alt="smoked troutprawn with salad" title=" fish and salad" /></a>
+                </div>
+            </div>
+            
+
+        </main>
+        <footer>
+            <div class="navDiv">
+                <nav id="additionalNavigation" class="navigation">
+                  <ul>
+                    <li><a href="giftCertificates.html">Treat Someone</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                  </ul>
+                </nav>
+           </div>
+        </footer>
+
+    </body>
+</html>
