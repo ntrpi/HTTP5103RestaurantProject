@@ -37,6 +37,7 @@ html {
 }
 .menu-bar a:hover {
     color: #e26d5c;
+    cursor: pointer;
 }
 #main-menu {
     position: absolute;
