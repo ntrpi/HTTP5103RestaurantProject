@@ -5,22 +5,22 @@ main,header,footer{
     font-size:1.25em;
 }
 #main-container {
-    margin: 0;
+    margin-left:4%;
     padding: 0;
-	border:2px solid red;
+	/*border:2px solid red;*/
     /*background-color: #98c7d5;*/
     /*background: url(../images/beautiful-beach-sea_74190-6620n.jpg) no-repeat;
     opacity:0.4;*/
 }
 #main-container> div, #main-container form {
     display: inline-block;
-    margin-left: 4em;
+    margin-left: 2em;
     vertical-align: top;
     /*border: 2px solid red;*/
     text-align: justify;
 }
 #main-container> div{
-	width:50%;
+	width:47%;
 }
 #main-container> div:last-of-type{
 	width:90%;
@@ -45,11 +45,21 @@ span {
     font-family: 'Parisienne',sans-serif, cursive;
     font-size:1.5em;
 }
-#backgroundPics a img{
+#backgroundPics a{
+	
     width:15%;
     height:15%;
     
 }
+#backgroundPics a img{
+	margin-left:0.75em;
+	width:150px;
+	height:150px;
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+	
+}
+   
 #backgroundPics a:hover img{
     border:3px solid #699f1a;
     
@@ -59,6 +69,7 @@ span {
 	font-size:2em;
     text-align: center;
 	margin-top:0;
+	margin-bottom:0;
 }  
 
 #main-container h2 {
@@ -68,14 +79,75 @@ span {
 }
 
 #finalcard{
-	margin-top:2em;
+	position:relative;
+	margin-top:3em;
 	padding-top:0;
 	border:2px solid green; 
 	border-radius:10px 10px;
-	background:url("../images/logoSmall.png")no-repeat;
+	/*background:url("../images/logoSmall.png")no-repeat;*/
 	/*background:url("../images/oysters-1209767_1920.jpg")no-repeat;*/
+}
+#small-logo{
+	position:absolute;
+
+}
+#chosenImage{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+
 }
 #finalcard p{
 	margin-left:1em;
 	font-size:1.25em;
 }
+#finalcard p:last-of-type{
+	background-color:#423e3e;
+	border-radius:15px 15px;
+	margin-left:40%;
+	width:25%;
+	text-align:center;
+	padding-bottom:0.5em;
+	padding-top:0.5em;
+	font-size:1.5em;
+	font-weight:bold;
+	color:green;
+}
+#finalcard textarea{
+ width:95%;
+ height:30%;
+ border:0;
+ overflow:hidden;
+ font-size:1.5em;
+}
+#finalcard em{
+	font-style:normal;
+	padding-left:0.5em;
+}
+#senderName,#receiverName,#amount, #receiverEmail,#message,#occasion{
+	font-size:1em;
+	margin-bottom:0.75em;
+}
+#senderName{
+	margin-left:0.75em;
+}
+#amount{
+	margin-left:2.85em;
+}
+#message,#occasion{
+	margin-left:3.25em;
+}
+input[name="Submit"]{
+	background-color:green;
+	color:black;
+	font-family:inherit;
+	font-size:1.75em;
+	border-radius:10px 10px;
+}
+input[name="Submit"]:hover{
+	background-color:green;
+	color:white;
+}
+

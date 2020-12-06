@@ -6,6 +6,7 @@
         <title>About us</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <link rel="stylesheet" type="text/css" href="./css/giftCertificates.css" />
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 		<script src="./js/giftCertificates.js"></script>
     </head>
     <body>
@@ -62,7 +63,7 @@
 				
 				<div>
 				<label for="amount">Amount:</label>
-				<input type="number" id="amount" name="amount" placeholder="45"/>
+				<input type="text" id="amount" name="amount" placeholder="45"/>
 				</div>
 				
 				<div>
@@ -90,19 +91,25 @@
 				</form>
 				
 				<div id="finalcard">
-				<h3><span> Ceviche Gift Card</span></h3>
-				<h4>for occasion here</h4>
-				<p> To:<em>receiver name</em><p>
-				<p>message</p>
-				<p> From:<em>Sendername</em><p>
-				<p>Amount here</p>
+				    <div id="small-logo"><img src="images/logoSmall.png" alt="Restaurant logo"/></div>
+					<h3><span> Ceviche Gift Card</span></h3>
+					<h4>for occasion here</h4>
+					<p> To:<em>receiver name</em></p>
+					<p><textarea rows="3">message</textarea></p>
+					<p> From:<em>Sendername</em></p>
+					<p>Amount</p>
+					<div id="chosenImage"></div>
                 </div>
 				
 				<div id="backgroundPics">
 				<h3>Choose any picture for background</h3>
                     
-                    <a href="#"><img src="images/Mackerel_Tomato.jpg" alt="mackerel with tomatoes" title=" fish dish" /></a>
-                    <a href="#"><img src="images/Prawn_and_Salad.jpg" alt="smoked troutprawn with salad" title=" fish and salad" /></a>
+                    <a href="#"><img src="images/Mackerel_Tomato.jpg" alt="mackerel with tomatoes" title=" fish dish" height="20" /></a>
+                    <a href="#"><img src="images/Prawn_and_Salad.jpg" alt="smoked troutprawn with salad" title=" fish and salad" height="20" /></a>
+					<a href="#"><img src="images/images_menu/arroz-con-mariscos.jpg" alt="mariscos menu" title=" fish dish" height="20"/></a>
+                    <a href="#"><img src="images/images_menu/causa.jpg" alt="causa speciality" title=" sea food" height="20"/></a>
+					<a href="#"><img src="images/images_menu/palta-rellena.jpg" alt="palta menu" title=" fish dish" height="20"/></a>
+                    <a href="#"><img src="images/images_menu/choritos-a-la-chalaca.jpg" alt="choritos speciality" title=" sea food" height="20" /></a>
                 </div>
             </div>
             
