@@ -13,7 +13,7 @@ function aboutUs(){
 		description.style.display="block";
 		description.style.backgroundColor="black";
 		description.style.position="absolute";
-		description.style.left="3%";
+		description.style.left="5%";
 		description.style.top="35%";
 		description.style.width="50%";
 		description.style.color="white";
@@ -29,7 +29,7 @@ function aboutUs(){
 		description1.style.display="block";
 		description1.style.backgroundColor="black";
 		description1.style.position="absolute";
-		description1.style.left="3%";
+		description1.style.left="5%";
 		description1.style.top="60%";
 		description1.style.width="50%";
 		description1.style.color="white";
