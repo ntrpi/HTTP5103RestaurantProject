@@ -9,7 +9,7 @@ function initMap() {
 
     //Downtown Kitchener BIA - 54 Queen St S, Kitchener, ON N2G 1V6
     new google.maps.Marker ({
-        position: { lat: 43.429451, lng: -80.526451 },
+        position: { lat: 43.449240, lng: -80.489850 },
         map,
         title: "Hi"
     });
@@ -17,18 +17,24 @@ function initMap() {
     new google.maps.Marker ({
         position: { lat: 43.472260, lng: -80.483760 },
         map,
-        title: "Hi"
+        title: "North Ward"
     });
     //King East - 120 Ottawa St N, Kitchener, ON N2H 3K4
     new google.maps.Marker ({
         position: { lat: 43.449400, lng: -80.448720 },
         map,
-        title: "Hi"
+        title: "King East"
     });
     //Victoria Hills - 805 Victoria St S, Kitchener, ON N2M 2E2
     new google.maps.Marker ({
         position: { lat: 43.437350, lng: -80.523190 },
         map,
-        title: "Hi"
+        title: "Victoria Hills"
+    });
+    //Forest Heights - 875 Highland Rd W, Kitchener, ON N2N 2Y2
+    new google.maps.Marker ({
+        position: { lat: 43.429451, lng: -80.526451 },
+        map,
+        title: "Forest Heights"
     });
 }
