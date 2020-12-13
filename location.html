@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Locations</title>
+        <meta name = "description" content = "Locations-page"/>
+        <!--This are my fonts enbeded-->
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+        <!--Link to JavaScript and CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel = "stylesheet" type = "text/css" href = "css/location.css"/>
+        <script type = 'text/javascript' src = 'js/location.js'></script>
+        <!--Script for Google Maps-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB29fsuVUbGao1L-ESO3oyiQXNQ-m-h3A&callback=initMap&libraries=&v=weekly"defer></script>
+    </head>
+    <body>
+        <header>
+            <!-- Banner -->
+            <section id="banner" class="pageWrapper">
+                <div class="bannerContent">
+                    <div class="bannerImageDiv">
+                        <img id="bannerImage" src="./images/ceviche.jpg" alt="An order of ceviche presented in a turquoise ceramic bowl.">
+                    </div>
+                    <div class="bannerTextDiv">
+                        <h1 id="siteName"><a href="index.html">Ceviche</a></h1>
+                        <div class="slogan">Authentic Peruvian Fine Dining</div>
+                        <div class="logoSurround">
+                            <img class="logo" src="./images/logoSmall.png" alt="Logo is a stylized greyscale sun setting over the sea.">
+                        </div>
+                    </div> <!-- end bannerTextDiv -->
+                </div> <!-- end bannerContent -->
+            </section>
+            <div class="navDiv">
+                <nav class="navigation">
+                    <ul>
+                        <li><a id="home" href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="location.html">Locations</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class = "page-container">
+                <!--Side Bare of Locations-->
+                <div class='sidebar'><h2>Ceviche 
+                    Locations</h2></div>
+                <div class="list">
+                    <ul>
+                        <li><span id='dkb'>Downtown Kitchener BIA</span>
+                            54 Queen St S, Kitchener, ON N2G 1V6</li>
+                        <li><span id='nw'>North Ward</span>
+                            428 Lancaster St W, Kitchener, ON N2H 4V9</li>
+                        <li><span id='ke'>King East</span>
+                            120 Ottawa St N, Kitchener, ON N2H 3K4</li>
+                        <li><span id='vh'>Victoria Hills</span>
+                            805 Victoria St S, Kitchener, ON N2M 2E2</li>
+                        <li><span id='fh'>Forest Heights</span>
+                            875 Highland Rd W, Kitchener, ON N2N 2Y2</li>
+                    </ul>
+                </div>
+                <!--Map Layout Div-->
+                <div id='map' class='map'>Map</div>
+            </div>
+        </main>
+        <footer>
+            <div class="navDiv">
+                <nav id="additionalNavigation" class="navigation">
+                    <ul>
+                    <li><a href="giftCertificates.html">Treat Someone</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>    
