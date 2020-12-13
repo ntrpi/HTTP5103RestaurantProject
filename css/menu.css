@@ -27,14 +27,17 @@ html {
     color: black;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
-    padding-left: 25em;
+    padding-left: 23%;
+    text-align: center;
     display: inline-block;
     font-size: 1.5em;
+    width: 86%;
 }
 #top-bar h2 {
     float: right;
     padding-top: 1em;
     font-size: 15px;
+    width: 7%;
 }
 .menu-bar a,
 .menu-bar a{
@@ -50,7 +53,9 @@ html {
 #main-menu {
     position: absolute;
     top: 1.9em;
-    left: 26.5em;
+    text-align: center;
+    padding-left: 20%;
+    width: 86%;
 }
 .menu-bar li {
     display: inline-block;
@@ -91,11 +96,12 @@ h2 {
 #top-three-columns {
     display: inline-block;
     padding-top: 1em;
+    width: 100%
 }
 /*CEVICHE COLUMN*/
 .ceviche1 {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .ceviche1 h4 {
     position: absolute;
@@ -111,7 +117,7 @@ h2 {
     background-color: #e26d5c;
 }
 .ceviche1 img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -142,13 +148,14 @@ h2 {
 .marroz {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
     }
 .marroz h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .marroz img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     object-position: 1% 50%; /*left-right, up-down*/
@@ -176,13 +183,14 @@ h2 {
 .chorcha {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .chorcha h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .chorcha img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     object-position: 1% 20%; /*left-right, up-down*/
@@ -215,14 +223,14 @@ h2 {
 /*CHUPCAMA COLUMN*/
 .chupcama {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .chupcama h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .chupcama img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -249,13 +257,14 @@ h2 {
 .escado {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .escado h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .escado img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -282,13 +291,14 @@ h2 {
 .jalea {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .jalea h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .jalea img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -321,14 +331,14 @@ h2 {
 /*PARIHUELA COLUMN*/
 .parihuela {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .parihuela h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;;
 }
 .parihuela img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -355,13 +365,14 @@ h2 {
 .plascado {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .plascado h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .plascado img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -388,13 +399,14 @@ h2 {
 .lomo {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .lomo h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .lomo img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -436,14 +448,14 @@ h2 {
 /*ANTICUCHOS COLUMN*/
 .anticuchos {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .anticuchos h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .anticuchos img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -470,13 +482,14 @@ h2 {
 .causa {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .causa h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .causa img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     object-position: 1% 15%; /*left-right, up-down*/
@@ -504,13 +517,14 @@ h2 {
 .papare {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .papare h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .papare img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -541,14 +555,14 @@ h2 {
 /*PALTA RELLENA COLUMN*/
 .palta {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .palta h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .palta img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -575,13 +589,14 @@ h2 {
 .tamalito {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .tamalito h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .tamalito img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -621,14 +636,14 @@ h2 {
 /*ENSALADA RUSA COLUMN*/
 .rusa {
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .rusa h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .rusa img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -655,13 +670,14 @@ h2 {
 .papala {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .papala h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .papala img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -688,13 +704,14 @@ h2 {
 .solterito {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .solterito h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .solterito img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -734,14 +751,14 @@ h2 {
 /*PICARONES COLUMN*/
 .picarones{
     display: inline-block;
-    padding-left: 1.5em;
+    width: 30%;
 }
 .picarones h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .picarones img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -768,13 +785,14 @@ h2 {
 .mora {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .mora h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .mora img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -801,13 +819,14 @@ h2 {
 .flan {
     display: inline-block;
     padding-left: 3em;
+    width: 34%;
 }
 .flan h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
 .flan img {
-    width: 350px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -847,7 +866,6 @@ h2 {
 /*PINA COLADA COLUMN*/
 .pina {
     display: inline-block;
-    padding-left: 1.2em;
 }
 .pina h2 {
     text-align: center;
