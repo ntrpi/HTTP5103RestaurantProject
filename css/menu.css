@@ -1,3 +1,13 @@
+/*'Source Sans Pro', sans-serif;*/
+/*'Alegreya Sans', sans-serif;*/
+/*
+#8eac76 - green
+#e26d5c - salmon
+#ffe1a8 - yellow
+#723d46 - burgandy
+#699f1a - dark green
+*/
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -9,17 +19,15 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    font-size: ;
 }
 #top-bar {
-    background-color: #ffe1a8;
+    background: linear-gradient(90deg, #e26d5c 10%,#ffe1a8 90%);
 }
 #top-bar h1 {
     color: black;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
     padding-left: 25em;
-    font-family: 'Alegreya Sans', sans-serif;
     display: inline-block;
     font-size: 1.5em;
 }
@@ -69,7 +77,6 @@ html {
 .menu-section-main h2 {
     padding-left: 1.5em;
     margin-bottom: 0;
-    font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.5em;
 }
 /*========================*/
@@ -103,6 +110,11 @@ h2 {
     padding: 5px;
     background-color: #e26d5c;
 }
+.ceviche1 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .ceviche1 h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
@@ -120,9 +132,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .ceviche1 button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*MARROZ COLUMN*/
@@ -133,6 +146,12 @@ h2 {
 .marroz h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.marroz img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 1% 50%; /*left-right, up-down*/
 }
 .marroz p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -147,9 +166,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .marroz button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CHORCHA COLUMN*/
@@ -160,6 +180,12 @@ h2 {
 .chorcha h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.chorcha img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 1% 20%; /*left-right, up-down*/
 }
 .chorcha p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -174,9 +200,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chorcha button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -194,6 +221,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.chupcama img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .chupcama p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -207,9 +239,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chupcama button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*ESCADO COLUMN*/
@@ -220,6 +253,11 @@ h2 {
 .escado h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.escado img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .escado p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -234,9 +272,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .escado button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*JALEA COLUMN*/
@@ -247,6 +286,11 @@ h2 {
 .jalea h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.jalea img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .jalea p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -261,9 +305,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .jalea button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -282,6 +327,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;;
 }
+.parihuela img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .parihuela p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -295,9 +345,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .parihuela button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PLASCADO COLUMN*/
@@ -308,6 +359,11 @@ h2 {
 .plascado h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.plascado img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .plascado p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -322,9 +378,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .plascado button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*LOMO COLUMN*/
@@ -335,6 +392,11 @@ h2 {
 .lomo h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.lomo img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .lomo p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -349,9 +411,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .lomo button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -360,7 +423,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -380,6 +442,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.anticuchos img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .anticuchos p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -393,9 +460,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .anticuchos button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CAUSA COLUMN*/
@@ -406,6 +474,12 @@ h2 {
 .causa h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.causa img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 1% 15%; /*left-right, up-down*/
 }
 .causa p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -420,9 +494,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .causa button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PAPA RELLENA COLUMN*/
@@ -433,6 +508,11 @@ h2 {
 .papare h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.papare img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .papare p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -447,9 +527,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .papare button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -466,6 +547,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.palta img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .palta p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -479,9 +565,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .palta button:hover {
-    background-color: #c9cba3;
+    background-color:#8eac76;
     color: white;
 }
 /*TAMALITO COLUMN*/
@@ -492,6 +579,11 @@ h2 {
 .tamalito h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.tamalito img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .tamalito p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -506,9 +598,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .tamalito button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -517,7 +610,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -535,6 +627,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.rusa img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .rusa p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -548,9 +645,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .rusa button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PAPA A LA HUANCAINA COLUMN*/
@@ -561,6 +659,11 @@ h2 {
 .papala h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.papala img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .papala p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -575,9 +678,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .papala button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*SOLTERITO COLUMN*/
@@ -588,6 +692,11 @@ h2 {
 .solterito h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.solterito img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .solterito p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -602,9 +711,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .solterito button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -613,7 +723,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -631,6 +740,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.picarones img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .picarones p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -644,9 +758,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .picarones button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*MAZAMORRA MORADA COLUMN*/
@@ -657,6 +772,11 @@ h2 {
 .mora h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.mora img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .mora p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -671,9 +791,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .mora button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*FLAN COLUMN*/
@@ -684,6 +805,11 @@ h2 {
 .flan h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.flan img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .flan p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -698,9 +824,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .flan button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -709,7 +836,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -727,6 +853,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.pina img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
 .pina p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -740,9 +871,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .pina button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*BOTH COLUMN*/
@@ -753,6 +885,11 @@ h2 {
 .both h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.both img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
 }
 .both p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -767,9 +904,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .both button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*SMOOTHIES COLUMN*/
@@ -780,6 +918,11 @@ h2 {
 .smoothies h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.smoothies img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .smoothies p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -794,9 +937,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .smoothies button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CHICHA MORADA COLUMN*/
@@ -821,9 +965,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chicha button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PISCO SOUR COLUMN*/
@@ -848,8 +993,9 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .pisco button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
