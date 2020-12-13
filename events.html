@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>HTTP5103 Team1B Restaurant</title>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/events.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="formAndImageDiv">
                     <div class="formDiv">
-                        <form action="post">
+                        <form method="post" id="eventForm" name="eventForm">
                             <div class="customerName">
                                 <label for="customerName">Name  </label>
                                 <input class="inputField" id="customerName" name="customerName" type="text">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="numberOfPeople">
                                 <label for="numberOfPeople">Guests</label>
-                                <input class="inputField" id="numberOfPeople" name="numberOfPeople" type="number" min="1" max="50">
+                                <input class="inputField" id="numberOfPeople" name="numberOfPeople" type="number" min="1" max="50" value="1">
                             </div>
                             <div class="eventSubmit">
                                 <input id="eventSubmit" class="submitButton" type="submit" value="Book Now">

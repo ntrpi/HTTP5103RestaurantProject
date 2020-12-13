@@ -69,7 +69,9 @@ html {
   padding: 0 4em 0 2em;
 }
   
-  
+.errorBackground {
+  background-color: rgb(252, 133, 133);
+} 
   
 
 
