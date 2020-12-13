@@ -11,7 +11,7 @@ function initMap() {
     new google.maps.Marker ({
         position: { lat: 43.449240, lng: -80.489850 },
         map,
-        title: "Hi"
+        title: "Downtown Kitchener"
     });
     //North Ward - 428 Lancaster St W, Kitchener, ON N2H 4V9
     new google.maps.Marker ({
@@ -37,4 +37,48 @@ function initMap() {
         map,
         title: "Forest Heights"
     });
+    
+    
+    //Set on click to move the map to location: Downtown Kitchener
+    var location1 = document.getElementById("dkb");
+    location1.addEventListener("click", start1);
+    function start1(){
+        map.setZoom(17);
+        map.setCenter({ lat: 43.449240, lng: -80.489850 });
+    };
+    //Set on click to move the map to location: North Ward
+    var location2 = document.getElementById("nw");
+    location2.addEventListener("click", start2);
+    function start2(){
+        map.setZoom(17);
+        map.setCenter({ lat: 43.472260, lng: -80.483760 });
+    };
+    //Set on click to move the map to location: King East
+    var location3 = document.getElementById("ke");
+    location3.addEventListener("click", start3);
+    function start3(){
+        map.setZoom(17);
+        map.setCenter({ lat: 43.449400, lng: -80.448720 });
+    };
+    //Set on click to move the map to location: Victoria Hills
+    var location4 = document.getElementById("vh");
+    location4.addEventListener("click", start4);
+    function start4(){
+        map.setZoom(17);
+        map.setCenter({ lat: 43.437350, lng: -80.523190 });
+    };
+    //Set on click to move the map to location: Forest Heights
+    var location5 = document.getElementById("fh");
+    location5.addEventListener("click", start5);
+    function start5(){
+        map.setZoom(17);
+        map.setCenter({ lat: 43.429451, lng: -80.526451 });
+    };
+    
 }
+
+
+
+
+
+
