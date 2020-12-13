@@ -1,7 +1,7 @@
 /*'Source Sans Pro', sans-serif;*/
 /*'Alegreya Sans', sans-serif;*/
 /*
-#c9cba3 - soft green
+#8eac76 - green
 #e26d5c - salmon
 #ffe1a8 - yellow
 #723d46 - burgandy
@@ -21,7 +21,7 @@ html {
     position: relative;
 }
 #top-bar {
-    background-color: #ffe1a8;
+    background: linear-gradient(90deg, #e26d5c 10%,#ffe1a8 90%);
 }
 #top-bar h1 {
     color: black;
@@ -132,9 +132,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .ceviche1 button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*MARROZ COLUMN*/
@@ -165,9 +166,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .marroz button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CHORCHA COLUMN*/
@@ -198,9 +200,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chorcha button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -236,9 +239,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chupcama button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*ESCADO COLUMN*/
@@ -268,9 +272,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .escado button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*JALEA COLUMN*/
@@ -300,9 +305,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .jalea button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -339,9 +345,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .parihuela button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PLASCADO COLUMN*/
@@ -371,9 +378,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .plascado button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*LOMO COLUMN*/
@@ -403,9 +411,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .lomo button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -451,9 +460,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .anticuchos button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CAUSA COLUMN*/
@@ -484,9 +494,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .causa button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PAPA RELLENA COLUMN*/
@@ -516,9 +527,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .papare button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 
@@ -553,9 +565,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .palta button:hover {
-    background-color: #c9cba3;
+    background-color:#8eac76;
     color: white;
 }
 /*TAMALITO COLUMN*/
@@ -585,9 +598,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .tamalito button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -631,9 +645,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .rusa button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PAPA A LA HUANCAINA COLUMN*/
@@ -663,9 +678,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .papala button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*SOLTERITO COLUMN*/
@@ -695,9 +711,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .solterito button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -741,9 +758,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .picarones button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*MAZAMORRA MORADA COLUMN*/
@@ -773,9 +791,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .mora button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*FLAN COLUMN*/
@@ -805,9 +824,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .flan button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*========================*/
@@ -851,9 +871,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .pina button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*BOTH COLUMN*/
@@ -883,9 +904,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .both button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*SMOOTHIES COLUMN*/
@@ -915,9 +937,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .smoothies button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*CHICHA MORADA COLUMN*/
@@ -942,9 +965,10 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .chicha button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
 /*PISCO SOUR COLUMN*/
@@ -969,8 +993,9 @@ h2 {
     padding-right: 1em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 .pisco button:hover {
-    background-color: #c9cba3;
+    background-color: #8eac76;
     color: white;
 }
