@@ -30,6 +30,10 @@ main,header,footer{
     margin-bottom:0;
 	padding-bottom:0;
 }
+label[for="message"]{
+	position:absolute;
+	margin-top:1em;
+}
 #main-container> form h3{
 margin-top:1.5em;
 }
@@ -38,7 +42,10 @@ margin-top:1.5em;
 }
 
 form div{
-	padding:0.5em;
+	padding:0.25em;
+}
+#main-container> form{
+	position:relative;
 }
 span {
     color: green;
@@ -136,8 +143,11 @@ span {
 #amount{
 	margin-left:2.85em;
 }
-#message,#occasion{
+#occasion{
 	margin-left:3.25em;
+}
+#message{
+	margin-left:8.45em;
 }
 input[name="Submit"]{
 	background-color:green;
