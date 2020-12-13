@@ -1,3 +1,12 @@
+/*'Source Sans Pro', sans-serif;*/
+/*'Alegreya Sans', sans-serif;*/
+/*
+#c9cba3 - soft green
+#e26d5c - salmon
+#ffe1a8 - yellow
+#723d46 - burgandy
+*/
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -9,7 +18,6 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    font-size: ;
 }
 #top-bar {
     background-color: #ffe1a8;
@@ -19,7 +27,6 @@ html {
     margin-top: 0.5em;
     margin-bottom: 1.5em;
     padding-left: 25em;
-    font-family: 'Alegreya Sans', sans-serif;
     display: inline-block;
     font-size: 1.5em;
 }
@@ -69,7 +76,6 @@ html {
 .menu-section-main h2 {
     padding-left: 1.5em;
     margin-bottom: 0;
-    font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.5em;
 }
 /*========================*/
@@ -103,6 +109,11 @@ h2 {
     padding: 5px;
     background-color: #e26d5c;
 }
+.ceviche1 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .ceviche1 h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
@@ -134,6 +145,12 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.marroz img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 1% 50%; /*left-right, up-down*/
+}
 .marroz p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -160,6 +177,12 @@ h2 {
 .chorcha h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.chorcha img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 1% 20%; /*left-right, up-down*/
 }
 .chorcha p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -194,6 +217,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.chupcama img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .chupcama p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -221,6 +249,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.escado img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .escado p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -247,6 +280,11 @@ h2 {
 .jalea h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.jalea img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .jalea p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -282,6 +320,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;;
 }
+.parihuela img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .parihuela p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -308,6 +351,11 @@ h2 {
 .plascado h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.plascado img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
 }
 .plascado p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -336,6 +384,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.lomo img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
 .lomo p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -360,7 +413,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -379,6 +431,11 @@ h2 {
 .anticuchos h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.anticuchos img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .anticuchos p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -407,6 +464,12 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.causa img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 1% 15%; /*left-right, up-down*/
+}
 .causa p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -433,6 +496,11 @@ h2 {
 .papare h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.papare img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .papare p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -466,6 +534,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.palta img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .palta p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -493,6 +566,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.tamalito img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .tamalito p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -517,7 +595,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -534,6 +611,11 @@ h2 {
 .rusa h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.rusa img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .rusa p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -562,6 +644,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.papala img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .papala p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -589,6 +676,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.solterito img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .solterito p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -613,7 +705,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -630,6 +721,11 @@ h2 {
 .picarones h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.picarones img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .picarones p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -658,6 +754,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.mora img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .mora p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -685,6 +786,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.flan img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
 .flan p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -709,7 +815,6 @@ h2 {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
     padding-top: 1.5em;
-    font-family: 'Alegreya Sans', sans-serif;
     border-top-style: double;
     border-color: #e26d5c;
 }
@@ -726,6 +831,11 @@ h2 {
 .pina h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.pina img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
 }
 .pina p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -754,6 +864,11 @@ h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+.both img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
 .both p {
     font-family: 'Source Sans Pro', sans-serif;
     white-space: pre-line;
@@ -780,6 +895,11 @@ h2 {
 .smoothies h2 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.smoothies img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
 }
 .smoothies p {
     font-family: 'Source Sans Pro', sans-serif;

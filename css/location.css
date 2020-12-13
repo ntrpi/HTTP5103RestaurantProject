@@ -1,0 +1,50 @@
+/*
+#c9cba3 - soft green
+#e26d5c - salmon
+#ffe1a8 - yellow
+#723d46 - burgandy
+#699f1a - dark green
+*/
+
+body{
+    background: #ffffff;
+    color: #000000;
+    font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.sidebar{
+    width: 33.3333%;
+    text-align: center;
+}
+.map{
+    border-left: 1px solid #000000; /*Take out - border: thin solid red; once you are done*/
+    position: absolute;
+    left: 33.3333%;
+    top: 0;
+    /* The height is 400 pixels */
+    height: 100%;
+    /* The width is the width of the web page */
+    width: 66.6666%;
+    border: thin solid #000000;
+}
+ul{
+    padding: 10px;
+}
+ul li{
+    padding: 10px;
+    white-space: pre-line;
+    border-bottom: solid thin #000000;
+}
+ul li span{
+    color: red;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+span:hover{
+    color: #c9cba3;
+}
