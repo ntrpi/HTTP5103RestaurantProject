@@ -1,9 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway&display=swap');
 
-main,header,footer{
+main{
     font-family: 'Lato', 'Raleway', 'Parisienne',sans-serif, cursive;
     font-size:1.25em;
 }
+
 #main-container div {
     display: inline-block;
     margin-left: 2.5em;
@@ -47,19 +48,15 @@ span {
         padding-top: 0.35em;
         margin-bottom: 0.125em;
     }
-h2,h1{
+.pageWrapper h2{
     text-align:center;
+	margin-bottom:0;
 }
-h1{
-    color:red;
-}
-#main-container h2 {
-    margin-bottom:0;
-}
+
 #main-container h3 {
     margin-left:3em;
 }
-em{
+#main-container em{
     font-weight:bold;
     color:red;
 }

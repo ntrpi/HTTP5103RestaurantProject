@@ -1,6 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway&display=swap');
 
-main,header,footer{
+main{
     font-family: 'Lato', 'Raleway', 'Parisienne',sans-serif, cursive;
     font-size:1.25em;
 }
