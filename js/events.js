@@ -10,7 +10,11 @@ function setErrorBackground( element )
 function removeErrorBackground( element )
 {
     if( element.classList.contains( errorBackground) ) {
-        element.classList.replace( errorBackground, "" );
+        try {
+            // Not sure why contains returns true, but then this 
+            // throws an exception saying it's not there.
+            element.classList.replace( errorBackground, "" );
+        } catch( e ) {}
     }
 }
 
