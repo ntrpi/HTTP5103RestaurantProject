@@ -1,386 +1,418 @@
 ﻿<!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset = "utf-8"/>
-        <title>Menu</title>
-        <meta name = "description" content = "Menu-page"/>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="./css/style.css" />
-        <link rel = "stylesheet" type = "text/css" href = "./css/menu.css">
-        <script type="text/javascript" src = "js/menu.js"></script>
-    </head>
-    <!--Seperation-->
-    <body>
-        <header>
-            <!-- Banner -->
-            <section id="banner" class="pageWrapper">
-                <div class="bannerContent">
-                    <div class="bannerImageDiv">
-                        <img id="bannerImage" src="./images/ceviche.jpg" alt="An order of ceviche presented in a turquoise ceramic bowl.">
-                    </div>
-                    <div class="bannerTextDiv">
-                        <h1 id="siteName"><a href="index.html">Ceviche</a></h1>
-                        <div class="slogan">Authentic Peruvian Fine Dining</div>
-                        <div class="logoSurround">
-                            <img class="logo" src="./images/logoSmall.png" alt="Logo is a stylized greyscale sun setting over the sea.">
-                        </div>
-                    </div> <!-- end bannerTextDiv -->
-                </div> <!-- end bannerContent -->
-            </section>
+<html lang="en">
 
-            <div class="navDiv">
-                <nav class="navigation">
-                    <ul>
-                        <li><a id="home" href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="location.html">Locations</a></li>
-                    </ul>
-                </nav>
+<head>
+  <meta charset="utf-8" />
+  <title>Menu</title>
+  <meta name="description" content="Menu-page" />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/menu.css">
+  <script type="text/javascript" src="js/menu.js"></script>
+</head>
+<!--Seperation-->
+
+<body>
+  <header>
+    <!-- Banner -->
+    <section id="banner" class="pageWrapper">
+      <div class="bannerContent">
+        <div class="bannerImageDiv">
+          <img id="bannerImage" src="./images/ceviche.jpg"
+            alt="An Order of ceviche presented in a turquoise ceramic bowl.">
+        </div>
+        <div class="bannerTextDiv">
+          <h1 id="siteName"><a href="index.html">Ceviche</a></h1>
+          <div class="slogan">Authentic Peruvian Fine Dining</div>
+          <div class="logoSurround">
+            <img class="logo" src="./images/logoSmall.png" alt="Logo is a stylized greyscale sun setting over the sea.">
+          </div>
+        </div> <!-- end bannerTextDiv -->
+      </div> <!-- end bannerContent -->
+    </section>
+
+    <div class="navDiv">
+      <nav class="navigation">
+        <ul>
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="location.html">Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="pageWrapper">
+    <div class="centerText">
+      <h2>Menu</h2>
+    </div>
+
+    <nav class="secondaryNav">
+      <ul>
+        <li><a id='mainLI'></a>Main</a></li>
+        <li><a id='appetizersLI'>Appetizers</a></li>
+        <li><a id='saladLI'>Salads</a></li>
+        <li><a id='dessertsLI'>Desserts</a></li>
+        <li><a id='drinksLI'>Drinks </a></li>
+      </ul>
+    </nav>
+
+    <!--//////////////////////////////////////////////////-->
+    <!--Main Menu section (three rows, three columns each)-->
+    <div class="menu-section-main">
+      <h3>Main</h3>
+    </div>
+    <!--First Row - (1.1)First Column-->
+    <section class="row">
+      <div>
+        <img src="images/images_menu/ceviche.jpg"
+          alt="A dish of ceviche containing fish, onions, parsley and severl condiments"   />
+        <h4>Ceviche <br></h4>
+        <p>Sliced square cut fish, marinated in lemon juice, pinch
+          of aji, thin sliced onions, topped with cloves and
+          seasoning. (137 calories)</p>
+        <p>With shrimp, fish or mixed</p>
+        <p><strong>$13.99 | $15.99 (mixed)</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.2)Second Column-->
+      <div class=marroz>
+        <img src="images/images_menu/arroz-con-mariscos.jpg" alt="A dish of rice and shrimp and asorted vegetables"
+            />
+        <h4>Arroz con Mariscos</h4>
+        <p>Steamed shrimp and calamari, fried rice, red bell
+          peppers and topped with a sliced lime.
+          (655 calories)</p>
+        
+        <p><strong>$15.99</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.3)Third Column-->
+      <div class="chorcha">
+        <img src="images/images_menu/choritos-a-la-chalaca.jpg" alt="A plate of seven clams filled with various"
+            />
+        <h4>Choritos a la chalaca</h4>
+        <p>Fresh mussels marinated in lime juice topped with
+          diced onions, tomatoes and peruvian corn.
+          (95 calories)</p>
+        
+        <p><strong>$13.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--Second Row - (2.1)First Column-->
+    <section id="middle-three-columns" class="row">
+      <div class="chupcama">
+        <img src="images/images_menu/chupe-de-camarones.jpg" alt="A bowl of shrimp chowder and corn" 
+           />
+        <h4>Chupe de camarones</h4>
+        <p>Boiled shrimp bisque, grated cheese, 3 eggs, cloves,
+          peruvian corn, red onion and a side of white rice.
+          (146 calories)</p>
+        <p>With shrimp or fish</p>
+        <p><strong>$9.95</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(2.2)Second Column-->
+      <div class="escado">
+        <img src="images/images_menu/escabeche-de-pescado.jpg" alt="A plate of fried fish with sauuted onions"
+            />
+        <h4>Escabeche de pescado</h4>
+        <p>Fried fish accompanied by onion escabeche, honey
+          mustard, spicey mayo and a side of white rice.
+          (128 calories)</p>
+        
+        <p><strong>$12.95</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(2.3)Third Column-->
+      <div class="jalea">
+        <img src="images/images_menu/jalea.jpg" alt="A dish mixture of fried fish, calamri, onions, and corn"
+            />
+        <h4>Jalea</h4>
+        <p>Deep fried fish, shrimp and calamari. Served with
+          lime marinated onions, corn and carrots.
+          (calories)</p>
+        
+        <p><strong>$14.45</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--Third Row - (3.1)First Column-->
+    <section id="bottom-three-columns" class="row">
+      <div class="parihuela">
+        <img src="images/images_menu/parihuela.jpg"
+          alt="A bowl soup dish filled with calamri, cloves, clam and chopped veggies"   />
+        <h4>Parihuela</h4>
+        <p>Peruvian style soup loaded with seafood mixtures '
+          (calamri, cloves, clam, chopped carrots and corn)
+          and side of rice. (350 calories)</p>
+        
+        <p><strong>$13.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(3.2)Second Column-->
+      <div class="plascado">
+        <img src="images/images_menu/pescado-a-la-plancha.jpg"
+          alt="Fried fillet fish served on a plate with a side of roasted potatoes"   />
+        <h4>Pescado a la plancha</h4>
+        <p>Grilled Talapia fish fillet, toped off with roasted
+          seosoned potatoes and side of rice.
+          (123 calories)</p>
+        
+        <p><strong>$14.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(3.3)Third Column-->
+      <div class="lomo">
+        <img src="images/images_menu/lomo-saltado.jpg"
+          alt="A dish filled with cooked meat and potato strips, sauted in onions and red pepers" 
+           />
+        <h4>Lomo Saltado</h4>
+        <p>Peruvian favourite. Meat suated with onions, tomatoes,
+          french fries, cilantro, soy sauce, and red wine. Served
+          with rice (450 calories)</p>
+        
+        <p><strong>$15.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--////////////////////////////////////////////////-->
+    <!--Appetizer Section (two rows, three columns each)-->
+    <div class="menu-section-appetizers">
+      <h3>APPETIZERS</h3>
+    </div>
+    <!--First Row - (1.1)First Column-->
+    <section id="appetizers" class="row">
+      <div class="anticuchos">
+        <img src="images/images_menu/anticuchos.jpg" alt="Meat bites served in a skewer" height="200"  />
+        <h4>Anticuchos</h4>
+        <p>Peruvian beef heart skewereds paired with corn, potato
+          and seasoned Aji Amarillo.
+          (180 calories)</p>
+        
+        <p><strong>$9.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.2)Second Column-->
+      <div class="causa">
+        <img src="images/images_menu/causa.jpg" alt="Lemony mash potato layered with alvocado, shrimp
+                        and tuna salad. Topped with a hard boiled egg" height="200"  />
+        <h4>Causa</h4>
+        <p>Lemony mash potato layered with alvocado, shrimp
+          and tuna salad. Topped with a hard boiled egg.
+          (530 calories)</p>
+        
+        <p><strong>$9.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.3)Third Column-->
+      <div class="papare">
+        <img src="images/images_menu/papa-rellena.jpg" alt="Loaded potato stuffed with meat. Served on a dish"
+          height="200"  />
+        <h4>Papa Rellana</h4>
+        <p>Crispy coated potato balls filled with a ground beef
+          mixture known as picadillo. Accompanied by a side
+          of colslaw. (380 calories)</p>
+        <p>2 Loaded potatoes per dish</p>
+        <p><strong>$8.55</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--Second Row - (1.1)First Column-->
+    <section id="appetizers-second-row" class="row">
+      <div class="palta">
+        <img src="images/images_menu/palta-rellena.jpg"
+          alt="Stuffed alvocado shrimp salad, with lime and cilantro drizzled with a zesty sauce" height="200"
+           />
+        <h4>Palta Rellena</h4>
+        <p>Stuffed alvocado shrimp salad, with lime and cilantro
+          drizzled with a zesty sauce.
+          (160 calories)</p>
+        
+        <p><strong>$7.55</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(2.2)Second Column-->
+      <div class="tamalito">
+        <img src="images/images_menu/tamalito.jpg" alt="Stuffed with pork or chicken, dressed in a creamy sauce"
+          height="200"  />
+        <h4>Tamalito</h4>
+        <p>Stuffed with pork or chicken, dressed in a creamy sauce.
+
+          (300 calories)</p>
+        <p>With pork or chicken. Served with 2 Tamalitos.</p>
+        <p><strong>$8.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--////////////////////////////////////////////////-->
+    <!--Salads Section (one row, three columns)-->
+    <div class="menu-section-salads">
+      <h3>SALADS</h3>
+    </div>
+    <!--First Row - (1.1)First Column-->
+    <section id="salads" class="row">
+      <div class="rusa">
+        <img src="images/images_menu/ensalada-rusa.jpg"
+          alt="Potato salad filled with peas, carrots, onions, beats. Added alvocado slices on top" height="200"
+           />
+        <h4>Ensalada Rusa</h4>
+        <p>Potato salad filled with peas, carrots, onions, beats.
+          Added alvocado slices on top.
+          (77 calories)</p>
+        
+        <p><strong>$10.50</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--Second Row - (1.1)First Column-->
+      <div class="papala">
+        <img src="images/images_menu/papa-a-la-huancaina.jpg"
+          alt="Boiled yellow potatoes in a spicey creamy sauce called Huancaina, along with boiled egss, olives and lettuce."
+          height="200"  />
+        <h4>Papa a la Huancaina</h4>
+        <p>Boiled yellow potatoes in a spicey creamy sauce called
+          Huancaina, along with boiled egss, olives and lettuce.
+          (58 calories)</p>
+        
+        <p><strong>$10.50</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.3)Third Column-->
+      <div class="solterito">
+        <img src="images/images_menu/solterito.jpg"
+          alt="Packed full of fresh crisp vegetables (peas, corn, cheese, green fava beans) and topped with marinate (rocoto pepper)"
+          height="200"  />
+        <h4>Solterito Salad</h4>
+        <p>Packed full of fresh crisp vegetables (peas, corn,
+          cheese, green fava beans) and topped with marinate
+          (rocoto pepper)(400 calories)</p>
+        
+        <p><strong>$11.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--////////////////////////////////////////////////-->
+    <!--Desserts Section (two rows, three columns each)-->
+    <div class="menu-section-desserts">
+      <h3>DESSERTS</h3>
+    </div>
+    <!--First Row - (1.1)First Column-->
+    <section id="desserts" class="row">
+      <div class="picarones">
+        <img src="images/images_menu/picarones.jpg" alt="5 Dough rings drenched a syrup per plate" height="200"
+           />
+        <h4>Picarones</h4>
+        <p>A truly sensory delight made from dough dried in oil,
+          then drenched in chancaca syrup. (58 calories)</p>
+        
+        <p><strong>$7.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.2)Second Column-->
+      <div class="mora">
+        <img src="images/images_menu/mazamorra-morada.jpg"
+          alt="Peruvian pudding made from purple corn, topped with cinamon " height="200"  />
+        <h4>Mazamorra Morada</h4>
+        <p>Peruvian pudding made from purple corn, topped
+          with cinamon (139 calories)</p>
+        
+        <p><strong>$3.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.3)Third Column-->
+      <div class="flan">
+        <img src="images/images_menu/crema.jpg" alt="Flan baked on top of butter cake finished with a dulce de leche"
+          height="200"  />
+        <h4>Flan</h4>
+        <p>Flan baked on top of butter cake finished with a dulce
+          de leche (146 calories)</p>
+        
+        <p><strong>$4.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <!--////////////////////////////////////////////////-->
+    <!--Drinks Section (one row, five columns each)-->
+    <div class="menu-section-drinks">
+      <h3>DRINKS</h3>
+    </div>
+    <!--First Row - (1.1)First Column-->
+    <section id="drinks" class="row">
+      <div class="pina">
+        <img src="images/images_menu/pina-colada.jpg"
+          alt="Pina Colada in a glass, with an added straw and pineapple slice" height="200" width="150" />
+        <h4>Piña Colada</h4>
+        <p>Cocktail Mix
+          (174 calories)</p>
+        
+        <p><strong>$4.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.2)Second Column-->
+      <div class="both">
+        <img src="images/images_menu/both.jpg" alt="A coca cola and Inka cola bottle side by side" height="200"
+          width="150" />
+        <h4>Soft Drinks</h4>
+        <p>Inca Kola or Coca Cola
+          (100 - 140 calories)</p>
+        
+        <p><strong>$2.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+      <!--(1.3)Third Column-->
+      <div class="smoothies">
+        <img src="images/images_menu/smoothies.jpg"
+          alt="several types of smoothies flavours such as: raspberry and pineapple, banana, kiwi and blueberry, strawberry and green smoothie"
+          height="200"  />
+        <h4>Smoothies</h4>
+        <p>Raspberry & Pineapple (250 calories)
+          Banana (230 calories)
+          Kiwi & Blueberry (360 calories)
+          Strawberry (310 calories)</p>
+        <p><strong>$4.00</strong></p>
+        <button type="submit" class="submitButton" >Order</button>
+      </div>
+    </section>
+    <section class="row">
+            <!--(1.4)Fourth Column-->
+            <div class="chicha">
+              <img src="images/images_menu/chicha-morada.jpg" alt="Purple corn savoured drink. " height="200" width="150" />
+              <h4>Chicha Morada</h4>
+              <p>Purple corn savoured
+                drink. (110 calories)</p>
+              
+              <p><strong>$3.00</strong></p>
+              <button type="submit" class="submitButton" >Order</button>
             </div>
-        </header>
-        <!--Top Bar Section-->
-        <main id = "main-body">
-            <div class = "page-container">
-                <section id = "top-bar">
-                    <h1>MENU</h1>
-                    <h2><a href = "#" id = "filter">Filter</a></h2>
-                    <h2><a href = "#" id = "cart">My Order</a></h2>
-                    <nav id = 'main-menu'>
-                        <ul class = "menu-bar">
-                            <li><a id = 'mainLI'><strong>Main</strong></a> |</li>
-                            <li><a id = 'appetizersLI'><strong>Appetizers</strong></a> |</li>
-                            <li><a id = 'saladLI'><strong>Salads</strong></a> |</li>
-                            <li><a id = 'dessertsLI'><strong>Desserts</strong></a> |</li>
-                            <li><a id = 'drinksLI'><strong>Drinks</strong></a></li>
-                        </ul>
-                    </nav>
-                </section>
-                <!--//////////////////////////////////////////////////-->
-                <!--Main Menu section (three rows, three columns each)-->
-                <div class = "menu-section-main">
-                    <h2>- MAIN -</h2>
-                </div>
-                <!--First Row - (1.1)First Column-->
-                <section id = "top-three-columns">
-                    <div class = "ceviche1">
-                        <h4>SIGNITURE</h4>
-                        <img src = "images/images_menu/ceviche.jpg" alt = "A dish of ceviche containing fish, onions, parsley and severl condiments" height = "250" width = "350"/>
-                        <h3>Ceviche</h3>
-                        <p>Sliced square cut fish, marinated in lemon juice, pinch 
-                            of aji, thin sliced onions, topped with cloves and 
-                            seasoning. (137 calories)</p>
-                        <p>With shrimp, fish or mixed</p>
-                        <p><strong>$13.99 | $15.99 (mixed)</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.2)Second Column-->
-                    <div class = marroz>
-                        <img src = "images/images_menu/arroz-con-mariscos.jpg" alt = "A dish of rice and shrimp and asorted vegetables" height = "250" width = "350"/>
-                        <h3>Arroz con Mariscos</h3>
-                        <p>Steamed shrimp and calamari, fried rice, red bell 
-                            peppers and topped with a sliced lime.
-                            (655 calories)</p>
-                        <p>-</p>
-                        <p><strong>$15.99</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.3)Third Column-->
-                    <div class = "chorcha">
-                        <img src = "images/images_menu/choritos-a-la-chalaca.jpg" alt = "A plate of seven clams filled with various" height = "250" width = "350"/>
-                        <h3>Choritos a la chalaca</h3>
-                        <p>Fresh mussels marinated in lime juice topped with 
-                            diced onions, tomatoes and peruvian corn.
-                        (95 calories)</p>
-                        <p>-</p>
-                        <p><strong>$13.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--Second Row - (2.1)First Column-->
-                <section id = "middle-three-columns">
-                    <div class = "chupcama">
-                        <img src = "images/images_menu/chupe-de-camarones.jpg" alt = "A bowl of shrimp chowder and corn" height = "250" width = "350"/>
-                        <h3>Chupe de camarones</h3>
-                        <p>Boiled shrimp bisque, grated cheese, 3 eggs, cloves, 
-                            peruvian corn, red onion and a side of white rice.
-                            (146 calories)</p>
-                        <p>With shrimp or fish</p>
-                        <p><strong>$9.95</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(2.2)Second Column-->
-                    <div class = "escado">
-                        <img src = "images/images_menu/escabeche-de-pescado.jpg" alt = "A plate of fried fish with sauuted onions" height = "250" width = "350"/>
-                        <h3>Escabeche de pescado</h3>
-                        <p>Fried fish accompanied by onion escabeche, honey 
-                            mustard, spicey mayo and a side of white rice.
-                            (128 calories)</p>
-                        <p>-</p>
-                        <p><strong>$12.95</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(2.3)Third Column-->
-                    <div class = "jalea">
-                        <img src = "images/images_menu/jalea.jpg" alt = "A dish mixture of fried fish, calamri, onions, and corn" height = "250" width = "350"/>
-                        <h3>Jalea</h3>
-                        <p>Deep fried fish, shrimp and calamari. Served with 
-                            lime marinated onions, corn and carrots.
-                            (calories)</p>
-                        <p>-</p>
-                        <p><strong>$14.45</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--Third Row - (3.1)First Column-->
-                <section id = "bottom-three-columns">
-                    <div class = "parihuela">
-                        <img src = "images/images_menu/parihuela.jpg" alt = "A bowl soup dish filled with calamri, cloves, clam and chopped veggies" height = "250" width = "350"/>
-                        <h3>Parihuela</h3>
-                        <p>Peruvian style soup loaded with seafood mixtures '
-                            (calamri, cloves, clam, chopped carrots and corn)
-                            and side of rice. (350 calories)</p>
-                        <p>-</p>
-                        <p><strong>$13.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(3.2)Second Column-->
-                    <div class = "plascado">
-                        <img src = "images/images_menu/pescado-a-la-plancha.jpg" alt = "Fried fillet fish served on a plate with a side of roasted potatoes" height = "250" width = "350"/>
-                        <h3>Pescado a la plancha</h3>
-                        <p>Grilled Talapia fish fillet, toped off with roasted 
-                            seosoned potatoes and side of rice.
-                            (123 calories)</p>
-                        <p>-</p>
-                        <p><strong>$14.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(3.3)Third Column-->
-                    <div class ="lomo">
-                        <img src = "images/images_menu/lomo-saltado.jpg" alt = "A dish filled with cooked meat and potato strips, sauted in onions and red pepers" height = "250" width = "350"/>
-                        <h3>Lomo Saltado</h3>
-                        <p>Peruvian favourite. Meat suated with onions, tomatoes,
-                            french fries, cilantro, soy sauce, and red wine. Served 
-                            with rice (450 calories)</p>
-                        <p>-</p>
-                        <p><strong>$15.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--////////////////////////////////////////////////-->
-                <!--Appetizer Section (two rows, three columns each)-->
-                <div class = "menu-section-appetizers">
-                    <h2>- APPETIZERS -</h2>
-                </div>
-                <!--First Row - (1.1)First Column-->
-                <section id = "appetizers">
-                    <div class = "anticuchos">
-                        <img src = "images/images_menu/anticuchos.jpg" alt = "Meat bites served in a skewer" height = "200" width = "350"/>
-                        <h3>Anticuchos</h3>
-                        <p>Peruvian beef heart skewereds paired with corn, potato 
-                            and seasoned Aji Amarillo.
-                            (180 calories)</p>
-                        <p>-</p>
-                        <p><strong>$9.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.2)Second Column-->
-                    <div class = "causa">
-                        <img src = "images/images_menu/causa.jpg" alt = "Lemony mash potato layered with alvocado, shrimp
-                            and tuna salad. Topped with a hard boiled egg" height = "200" width = "350"/>
-                        <h3>Causa</h3>
-                        <p>Lemony mash potato layered with alvocado, shrimp
-                            and tuna salad. Topped with a hard boiled egg. 
-                            (530 calories)</p>
-                        <p>-</p>
-                        <p><strong>$9.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.3)Third Column-->
-                    <div class = "papare">
-                        <img src = "images/images_menu/papa-rellena.jpg" alt = "Loaded potato stuffed with meat. Served on a dish" height = "200" width = "350"/>
-                        <h3>Papa Rellana</h3>
-                        <p>Crispy coated potato balls filled with a ground beef
-                            mixture known as picadillo. Accompanied by a side 
-                            of colslaw. (380 calories)</p>
-                        <p>2 Loaded potatoes per dish</p>
-                        <p><strong>$8.55</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--Second Row - (1.1)First Column-->
-                <section id = "appetizers-second-row">
-                    <div class = "palta">
-                        <img src = "images/images_menu/palta-rellena.jpg" alt = "Stuffed alvocado shrimp salad, with lime and cilantro drizzled with a zesty sauce" height = "200" width = "350"/>
-                        <h3>Palta Rellena</h3>
-                        <p>Stuffed alvocado shrimp salad, with lime and cilantro
-                            drizzled with a zesty sauce.
-                            (160 calories)</p>
-                        <p>-</p>
-                        <p><strong>$7.55</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(2.2)Second Column-->
-                    <div class = "tamalito">
-                        <img src = "images/images_menu/tamalito.jpg" alt = "Stuffed with pork or chicken, dressed in a creamy sauce" height = "200" width = "350"/>
-                        <h3>Tamalito</h3>
-                        <p>Stuffed with pork or chicken, dressed in a creamy sauce.
-                            
-                            (300 calories)</p>
-                        <p>With pork or chicken. Served with 2 Tamalitos.</p>
-                        <p><strong>$8.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--////////////////////////////////////////////////-->
-                <!--Salads Section (one row, three columns)-->
-                <div class = "menu-section-salads">
-                    <h2>- SALADS -</h2>
-                </div>
-                <!--First Row - (1.1)First Column-->
-                <section id = "salads">
-                    <div class = "rusa">
-                        <img src = "images/images_menu/ensalada-rusa.jpg" alt = "Potato salad filled with peas, carrots, onions, beats. Added alvocado slices on top" height = "200" width = "350"/>
-                        <h3>Ensalada Rusa</h3>
-                        <p>Potato salad filled with peas, carrots, onions, beats. 
-                            Added alvocado slices on top.
-                            (77 calories)</p>
-                        <p>-</p>
-                        <p><strong>$10.50</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--Second Row - (1.1)First Column-->
-                    <div class = "papala">
-                        <img src = "images/images_menu/papa-a-la-huancaina.jpg" alt = "Boiled yellow potatoes in a spicey creamy sauce called Huancaina, along with boiled egss, olives and lettuce." height = "200" width = "350"/>
-                        <h3>Papa a la Huancaina</h3>
-                        <p>Boiled yellow potatoes in a spicey creamy sauce called 
-                            Huancaina, along with boiled egss, olives and lettuce.
-                            (58 calories)</p>
-                        <p>-</p>
-                        <p><strong>$10.50</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.3)Third Column-->
-                    <div class = "solterito">
-                        <img src = "images/images_menu/solterito.jpg" alt = "Packed full of fresh crisp vegetables (peas, corn, cheese, green fava beans) and topped with marinate (rocoto pepper)" height = "200" width = "350"/>
-                        <h3>Solterito Salad</h3>
-                        <p>Packed full of fresh crisp vegetables (peas, corn,
-                            cheese, green fava beans) and topped with marinate 
-                            (rocoto pepper)(400 calories)</p>
-                        <p>-</p>
-                        <p><strong>$11.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--////////////////////////////////////////////////-->
-                <!--Desserts Section (two rows, three columns each)-->
-                <div class = "menu-section-desserts">
-                    <h2>- DESSERTS -</h2>
-                </div>
-                <!--First Row - (1.1)First Column-->
-                <section id = "desserts">
-                    <div class = "picarones">
-                        <img src = "images/images_menu/picarones.jpg" alt = "5 Dough rings drenched a syrup per plate" height = "200" width = "350"/>
-                        <h3>Picarones</h3>
-                        <p>A truly sensory delight made from dough dried in oil,
-                            then drenched in chancaca syrup. (58 calories)</p>
-                        <p>-</p>
-                        <p><strong>$7.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.2)Second Column-->
-                    <div class = "mora">
-                        <img src = "images/images_menu/mazamorra-morada.jpg" alt = "Peruvian pudding made from purple corn, topped with cinamon " height = "200" width = "350"/>
-                        <h3>Mazamorra Morada</h3>
-                        <p>Peruvian pudding made from purple corn, topped
-                            with cinamon (139 calories)</p>
-                        <p>-</p>
-                        <p><strong>$3.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.3)Third Column-->
-                    <div class = "flan">
-                        <img src = "images/images_menu/crema.jpg" alt = "Flan baked on top of butter cake finished with a dulce de leche" height = "200" width = "350"/>
-                        <h3>Flan</h3>
-                        <p>Flan baked on top of butter cake finished with a dulce
-                            de leche (146 calories)</p>
-                        <p>-</p>
-                        <p><strong>$4.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
-                <!--////////////////////////////////////////////////-->
-                <!--Drinks Section (one row, five columns each)-->
-                <div class = "menu-section-drinks">
-                    <h2>- DRINKS -</h2>
-                </div>
-                <!--First Row - (1.1)First Column-->
-                <section id = "drinks">
-                    <div class = "pina">
-                        <img src = "images/images_menu/pina-colada.jpg" alt = "Pina Colada in a glass, with an added straw and pineapple slice" height = "200" width = "150"/>
-                        <h3>Piña Colada</h3>
-                        <p>Cocktail Mix
-                            (174 calories)</p>
-                        <p>-</p>
-                        <p><strong>$4.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.2)Second Column-->
-                    <div class = "both">
-                        <img src = "images/images_menu/both.jpg" alt = "A coca cola and Inka cola bottle side by side" height = "200" width = "150"/>
-                        <h3>Soft Drinks</h3>
-                        <p>Inca Kola or Coca Cola
-                            (100 - 140 calories)</p>
-                        <p>-</p>
-                        <p><strong>$2.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.3)Third Column-->
-                    <div class = "smoothies">
-                        <img src = "images/images_menu/smoothies.jpg" alt = "several types of smoothies flavours such as: raspberry and pineapple, banana, kiwi and blueberry, strawberry and green smoothie" height = "200" width = "350"/>
-                        <h3>Smoothies</h3>
-                        <p>Raspberry & Pineapple (250 calories)
-                            Banana (230 calories)
-                            Kiwi & Blueberry (360 calories)
-                            Strawberry (310 calories)</p>
-                        <p><strong>$4.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.4)Fourth Column-->
-                    <div class = "chicha">
-                        <img src = "images/images_menu/chicha-morada.jpg" alt = "Purple corn savoured drink. " height = "200" width = "150"/>
-                        <h3>Chicha Morada</h3>
-                        <p>Purple corn savoured 
-                            drink. (110 calories)</p>
-                        <p>-</p>
-                        <p><strong>$3.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                    <!--(1.5)Fifth Column-->
-                    <div class = "pisco">
-                        <img src = "images/images_menu/pisco-sour.jpg" alt = "Alcoaholic cokctail originated from Peru" height = "200" width = "220"/>
-                        <h3>Pisco Sour</h3>
-                        <p>Alcoaholic cokctail originated 
-                            from Peru (349 calories)</p>
-                        <p>-</p>
-                        <p><strong>$6.00</strong></p>
-                        <button type = "submit">ORDER</button>
-                    </div>
-                </section>
+            <!--(1.5)Fifth Column-->
+            <div class="pisco">
+              <img src="images/images_menu/pisco-sour.jpg" alt="Alcoaholic cokctail originated from Peru" height="200"
+                width="220" />
+              <h4>Pisco Sour</h4>
+              <p>Alcoaholic cokctail originated
+                from Peru (349 calories)</p>
+              
+              <p><strong>$6.00</strong></p>
+              <button type="submit" class="submitButton" >Order</button>
             </div>
-        </main>
-        <footer>
-            <div class="navDiv">
-                <nav id="additionalNavigation" class="navigation">
-                    <ul>
-                    <li><a href="giftCertificates.html">Treat Someone</a></li>
-                    <li><a href="subscribe.html">Subscribe</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </footer>
-    </body>
+      
+    </section>
+  </main>
+  <footer>
+    <div class="navDiv">
+      <nav id="additionalNavigation" class="navigation">
+        <ul>
+          <li><a href="giftCertificates.html">Treat Someone</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
 </html>

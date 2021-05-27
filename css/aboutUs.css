@@ -1,65 +1,10 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway&display=swap');
-
-main{
-    font-family: 'Lato', 'Raleway', 'Parisienne',sans-serif, cursive;
-    font-size:1.25em;
+﻿.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-#main-container div {
-    display: inline-block;
-    margin-left: 2.5em;
-    vertical-align: top;
-    /*border: 2px solid red;*/
-    text-align: justify;
-}
-span {
-    color: green;
-    font-family: 'Parisienne',sans-serif, cursive;
-    font-size:1.5em;
-}
-#specials a img{
-    width:85%;
-    height:25%;
-    
-}
-#specials a:hover img{
-    border:3px solid #699f1a;
-    
-}
-#restaurant {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 1em;
-}
-#main-container {
-    margin: 0;
-    padding: 0;
-    /*background-color: #98c7d5;*/
-    /*background: url(../images/beautiful-beach-sea_74190-6620n.jpg) no-repeat;
-    opacity:0.4;*/
-}
-#specials {
-    width: 30%;
-}
-#specials, #specials p {
-    text-align: center;
-}
-    #specials p {
-        padding-top: 0.35em;
-        margin-bottom: 0.125em;
-    }
-.pageWrapper h2{
-    text-align:center;
-	margin-bottom:0;
-}
-
-#main-container h3 {
-    margin-left:3em;
-}
-#main-container em{
-    font-weight:bold;
-    color:red;
-}
-#description, #description1{
-	display:none;
+.row .col {
+    max-width: 45%;
+    margin: 2rem;
 }

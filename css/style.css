@@ -128,6 +128,11 @@ main {
   2. Header 
 */
 /* Banner */
+
+#banner {
+  padding-top: 2rem;
+}
+
 .bannerContent {
   overflow: auto;
   position: relative;
@@ -147,10 +152,10 @@ main {
 }
 
 .bannerTextDiv {
-  padding: var( --generalSpacing );
+  padding-right: var( --generalSpacing );
   text-align: center;
   float: right;
-  margin: var( --generalSpacing ) 10% 0 0;
+  margin: var( --generalSpacing ) 15% 0 0;
 }
 
 .slogan {
@@ -181,15 +186,16 @@ main {
 }
 
 .navigation ul {
+  list-style-type: none;
   margin: 0;
   padding: 1em;
 }
 
 .navigation li {
   display: inline-block;
-  list-style-type: none;
   max-width: 40%;
-  margin: .5em 4rem;
+  margin: .3em 2rem;
+  font-size: 1.2em;
 }
 
 .navDiv a {
@@ -202,12 +208,35 @@ main {
   color: var( --highlightRed );
 }
 
+.navDiv a:visited {
+  color: var( --highlightRed );
+}
+
+.secondaryNav {
+  text-align: center;
+}
+
+.secondaryNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.secondaryNav li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.1em;
+  max-width: 20%;
+  margin: .5em 2rem;
+  color: #555;
+}
+
 #home {
   color: var( --highlightRed );
 }
 
-.navDiv a:visited {
-  color: var( --paleRed );
+.row {
+  margin: 3rem auto;
 }
 
 /*---------------------------------------------------------------
